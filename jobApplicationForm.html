@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Job Application</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-image: url(39043-Pretty-Pink-Rose.jpg);font-family: 'Times New Roman', Times, serif">
+	
+<div class="container">
+
+<h2 style="font-family: 'Times New Roman', Times, serif;color:cadetblue;font-size: 300%">Application for Cuddle Buddy
+</h2>
+<p>&nbsp;</p>
+
+<form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset class="form-horizontal" style="color:floralwhite">
+		<legend style="font-weight: bold;">Account</legend>
+		<div class="form-group" style="color: floralwhite">
+			<label class="col-sm-3 control-label">Email</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="email">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Password</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="password" name="password">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Repeat password</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="password" name="repeat_password">
+			</div>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<fieldset class="form-horizontal" >
+		<legend style="font-weight: bold;">About You</legend>
+		<div class="form-group" style="color: floralwhite">
+			<label class="col-sm-3 control-label">Prefered Name</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="name">
+			</div>
+		</div>
+		<div class="form-group" style="color: floralwhite">
+			<label class="col-sm-3 control-label">Street Address</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="street">
+			</div>
+		</div>
+		<div class="form-group" style="color: floralwhite">
+			<label class="col-sm-3 control-label">City</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="city">
+			</div>
+		</div>
+		<div class="form-group" style="color: floralwhite">
+			<label class="col-sm-3 control-label">State</label>
+			<div class="col-sm-9">
+				<select class="form-control" name="state">
+					<option value="" selected="true">Choose a State (Must be in or near Washington)</option>
+					<option value="ID">Idaho</option>
+					<option value="OR">Oregon</option>
+					<option value="WA">Washington</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label" style="color: floralwhite">ZIP</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="zip">
+			</div>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<fieldset>
+		<legend style="font-weight: bold;">Availability</legend>
+		<div class="form-group row"> 
+			<label class="col-sm-12 control-label" style="color: floralwhite">Are you single?</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="radio">
+					<label>
+						<input type="radio" name="legal" value="yes">Yes
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="legal" value="no">No
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label class="col-sm-12 control-label" style="color: floralwhite">Male/Female/Other?</label>
+			
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="radio">
+					<label>
+						<input type="radio" name="legal" value="Male">Male
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="legal" value="Female">Female
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="legal" value="Other">Other, specify below
+					</label>
+				</div>
+				<td><input class="form-control" type="answer" name="Other"></td>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label class="col-sm-12 control-label" style="color: floralwhite;">How long do you want this job? (check all that apply)</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_pt" value="parttime">
+						Part time
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_ft" value="fulltime">
+						Full time
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_sl" value="seasonal">
+						Seasonal
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_tp" value="temporary">
+						Temporary
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label class="col-sm-12 control-label" style="color: floralwhite">Hours available</label>
+			<div class="col-sm-12">
+				<table class="table table-bordered">
+					<tr>
+						<td></td>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thu</th>
+						<th>Fri</th>
+					</tr>
+					<tr>
+						<th>Start</th>
+						<td><input class="form-control" type="time" name="mo_start"></td>
+						<td><input class="form-control" type="time" name="tu_start"></td>
+						<td><input class="form-control" type="time" name="we_start"></td>
+						<td><input class="form-control" type="time" name="th_start"></td>
+						<td><input class="form-control" type="time" name="fr_start"></td>
+					</tr>
+					<tr>
+						<th>Until</th>
+						<td><input class="form-control" type="time" name="mo_until"></td>
+						<td><input class="form-control" type="time" name="tu_until"></td>
+						<td><input class="form-control" type="time" name="we_until"></td>
+						<td><input class="form-control" type="time" name="th_until"></td>
+						<td><input class="form-control" type="time" name="fr_until"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<fieldset>
+		<legend style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: bold;">Reasons to Cuddle</legend>
+		<div class="form-group">
+			<label class="control-label" style="font-family: fantasy;color:brown;font-size: 120%;">Why do you enjoy cuddling?</label>
+			<textarea class="form-control" name="enjoy" rows="6"></textarea>
+		</div>
+		<div class="form-group">
+			<label class="control-label" style="color:tomato;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 100%;">What qualities do you have that make you a great cuddler?</label>
+			<textarea class="form-control" name="qualities" rows="6"></textarea>
+		</div>
+		<div class="form-group">
+			<label class="control-label" style="font-family: Verdana, Geneva, Tahoma, sans-serif;color:yellowgreen;font-weight: bold;">Why are you wanting to have a cuddling job?</label>
+			<textarea class="form-control" name="wanting" rows="6"></textarea>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+
+	<p>&nbsp;</p>
+
+</form>
+</div><!-- close .container -->
+</body>
+</html>
